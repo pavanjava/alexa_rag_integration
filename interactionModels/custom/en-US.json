@@ -1,0 +1,66 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "points_intent",
+          "samples": [
+            "what is the points concept",
+            "explain about the concept of points",
+            "tell me about points",
+            "what are points in qdrant",
+            "explain about the concept of points in qdrant",
+            "explain about points in qdrant"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "vectors_intent",
+          "samples": [
+            "what is the vectors concept",
+            "explain about the concept of vectors",
+            "tell me about vectors",
+            "what are vectors in qdrant",
+            "explain about the concept of vectors in qdrant",
+            "explain about vectors in qdrant"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "collections_intent",
+          "samples": [
+            "what is the collections concept",
+            "explain about the concept of collections",
+            "tell me about collections",
+            "what are collections in qdrant",
+            "explain about the concept of collections in qdrant",
+            "explain about collections in qdrant"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "qdrant assistant"
+    }
+  }
+}
